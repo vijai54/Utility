@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@drawable/dummy"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:id="@+id/details_left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_margin="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/name"
+            android:layout_below="@+id/image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/govtid"
+            android:id="@+id/id_proof"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/mobile"
+            android:id="@+id/mobile"
+            android:layout_below="@+id/id_proof"
+            android:layout_margin="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/address"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/mobile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@+id/addres_val"
+            android:textStyle="bold"
+            android:text="@string/description"
+            android:id="@+id/desc"
+            android:layout_margin="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/details_left"
+        android:layout_below="@+id/image">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/nameval"
+            android:layout_below="@+id/image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/id_proof"
+            android:id="@+id/id_proof_val"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@+id/name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/mobile"
+            android:id="@+id/mobile_val"
+            android:layout_below="@+id/id_proof"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addres_val"
+            android:layout_toRightOf="@+id/address"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@+id/mobile"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/desc_val"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/details_left"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        android:textSize="13sp"
+        android:layout_below="@+id/address"
+        android:textStyle="bold"
+        android:text="Rating :"
+        android:layout_margin="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_val"
+        android:textSize="13sp"
+        android:layout_below="@+id/address"
+        android:textStyle="bold"
+        android:text=" ***"
+        android:layout_toRightOf="@+id/rating"
+        android:layout_margin="15dp"
+        />-->
+
+
+
+
+
+
+
+</RelativeLayout>

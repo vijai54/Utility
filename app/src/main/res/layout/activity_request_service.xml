@@ -1,0 +1,90 @@
+
+<LinearLayout
+    android:id="@+id/registration_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/request_service_desc"
+        android:id="@+id/service_request_desc"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:typeface="sans"
+        android:textAlignment="center"   />
+
+    <com.bluecollar.task.widget.MultiSelectionSpinner
+        android:id="@+id/request_spinner_services"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/service_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/request_Service_Summary"
+        android:layout_marginStart="10dp"
+        android:imeOptions="actionUnspecified"
+        android:maxLines="4"
+        android:inputType="textAutoCorrect" />
+
+    <AutoCompleteTextView android:id="@+id/request_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/request_name"
+        android:layout_marginStart="10dp"
+        android:inputType="textAutoCorrect"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+    <EditText android:id="@+id/request_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/request_Mobile"
+        android:layout_marginStart="10dp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="@string/request_Address"
+        android:ems="10"
+        android:layout_marginStart="10dp"
+        android:id="@+id/request_address"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button android:id="@+id/request_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/request_service"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold" />
+  <!-- android:background="@drawable/textview_border"  -->
+    </LinearLayout>
+
+

@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.bluecollar.task.activity.SearchServiceActivity">
+
+    <include layout="@layout/toolbar"/>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/search_service"
+        android:hint="@string/search_Service"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textAutoCorrect"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/search_Service_example"
+        android:id="@+id/search_service_example_textview"
+        android:layout_marginStart="@dimen/example_textview_margin"
+        android:layout_below="@+id/search_service" />
+
+
+</RelativeLayout>

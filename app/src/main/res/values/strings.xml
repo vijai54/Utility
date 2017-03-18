@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Utility Vellore</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="slogan">Get It Done!</string>
+    <string name="action_about">About</string>
+    <string name="action_register">Register</string>
+    <string name="action_search">Search</string>
+    <string name="action_request_service">Request Service</string>
+    <string name="action_sync">Sync</string>
+    <string name="title_activity_help">About</string>
+
+    <string name="about_text">App is a one-stop solution for all your home services’ needs with more
+        than 20000 happy customers. You just need to book the order, and we ensure that it is done.
+        A background verified service provider visits your home on-time and solves your problem in
+        the most professional way. We are easy on the pocket and the best on quality standards.
+Our key services are – Home Cleaning, Appliance repair, Plumbing, Electrical installation , repairs,
+        Carpentry services, Laundry service, Driver on Demand, Home painting, AC , Geyser repair, PC ,
+        Laptop repair, Pest Control, Car Wash, and more help services.Home Cleaning – Complete house
+        cleaning and home spa services. We cover every nook and corner of your home and provide deep
+        cleaning , Steam cleaning.
+
+Laundry Service – Professional and high-quality Laundry services with free pick-up , delivery.
+        We provide both regular and premium services as per your need, and ensure that it is super quick!
+
+Driver on Demand Services – Select your pick-up point on and our professional driver will
+        reach you in no time.
+
+Carpet cleaning – We deep clean your carpets and flush out dust particles, termites and germs.
+        Our state-of-the-art technologies is among the best and your carpet will look like new again.
+
+Sofa cleaning services – We use a specialized multi-step process to clean your sofa.
+        The Sofa-spa treatment is essential for the durability of your sofa, giving it a lengthy life.
+
+Pest control services- Our pest control services are very effective.
+        Simple, odorless and harmless are the key features. Rely on us to permanently get rid of cockroaches, ants, termites and bedbugs.
+
+Electrical services – Our electricians are highly skilled and can help you with electric installation,
+        removal, repair, and more. We ensure that they are professional, and follow all safety measures.
+
+Plumbing services – All your plumbing-related problems will be taken care of.
+        Our professionals are experts in fitting, installations, and drainage related issues.
+
+AC services – Our services include – AC installation, repair, maintenance, fixing major and minor AC problems and AMCs.
+
+Carpentry services – Our carpenters are trusted, and can deal with all your carpentry issues – repair, renovation, assembling of furniture, and making new furniture.
+
+Car Spa – Our Car spa service takes care of both interior and exterior of your car, at the most affordable prices. The service is available at your doorstep.
+
+PC , Laptop Repair – Our trained team takes care of all your software and hardware issues, quickly and your doorstep.
+
+Refrigerator / Microwave / Washing Machine –When it comes to appliances, we are the best. We provide all the solutions for your fridge, microwave and washing machine.
+
+Home painting – Serving you, the finest home painting services, to suit your style. Our professionals offer a wide range of color catalogues to choose from,
+        which are fresh, durable and innovative.
+
+
+Our key features:
+Background checked
+Experienced professional
+On time services
+Moneyback guarantee
+Standardized pricing
+We are currently operative in TamilNadu, Vellore, and soon going to offer our services in new cities..</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="registration_activity">Register</string>
+
+    <!-- Strings related to Registration -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_id">Aadhar OR Voter</string>
+    <string name="prompt_Mobile">Mobile Number</string>
+    <string name="prompt_Service_Summary">Service Detail</string>
+    <string name="prompt_Address">Address (optional)</string>
+    <string name="action_sign_in"> register</string>
+    <string name="action_sign_in_short">Register</string>
+
+
+    <!-- Strings related to Requesting Service -->
+    <string name="request_name">Name</string>
+
+    <string name="request_Mobile">Mobile Number</string>
+    <string name="request_Service_Summary">Service needed..</string>
+    <string name="request_Address">Address where service needed</string>
+    <string name="request_service"> Request Service</string>
+    <string name="request_service_desc"> User can Request for Specific Service needed From available list to there location.</string>
+
+    <string name="search_Service"> Enter Service and location to search</string>
+    <string name="search_Service_example"> Plumbing Vellore </string>
+
+    <string name="error_invalid_mobile">This mobile  is invalid</string>
+    <string name="error_invalid_summary">This Summary is too short</string>
+    <string name="error_incorrect_password">This Summary is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="service_provider_list">Service Providers</string>
+    <string name="service_provider_detail">Service Providers Information</string>
+    <string name="connection_error">Connection error.</string>
+
+
+    <string name="description">Description :</string>
+    <string name="name">Name :</string>
+    <string name="govtid">ID Proof :</string>
+    <string name="mobile">Mobile :</string>
+    <string name="address">Address :</string>
+
+    <string name="title_activity_request_service">Request Service</string>
+
+    <string name="title_activity_search_service">Search Service</string>
+    <string name="service_provider_image_desc">Service Provider Image</string>
+
+</resources>

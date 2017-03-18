@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:orderInCategory="1"
+        android:icon="@mipmap/ic_search_black"
+        app:showAsAction="always" />
+
+    <!-- More -->
+  <!--  <item
+        android:id="@+id/a_More"
+        android:title="Options">
+        <menu>-->
+
+    <item android:id="@+id/action_register"
+        android:title="@string/action_register"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_system_update_alt_black"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_sync"
+        android:title="@string/action_sync"
+        android:icon="@mipmap/ic_system_update_alt_black"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_request_service"
+        android:title="@string/action_request_service"
+        android:icon="@mipmap/ic_system_update_alt_black"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:icon="@mipmap/ic_system_update_alt_black"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+        </menu>
+   <!-- </item>
+</menu>-->
